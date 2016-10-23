@@ -25,10 +25,12 @@ function login() {
 
     case 'admin', '123':
       console.log("entro admin");
+      window.location.href='https://xavilopez.github.io/Flyer1/';
       break;
 
     case 'martin', 'martin123':
       console.log("entro martin");
+      window.location.href='https://xavilopez.github.io/Flyer2/';
       break;
     default:
       console.log("default");
